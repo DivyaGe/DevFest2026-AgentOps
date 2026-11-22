@@ -168,7 +168,8 @@ gcloud model-armor templates describe "${TEMPLATE_ID}" --location="${REGION}"
 
 *Don't beg the LLM to behave—hire a bouncer\! You create a centralized Model Armor policy template (devfest-agent-guardrail) and place two checkpoints around Nova: before\_model\_callback stands at the front door to bounce prompt injections and jailbreaks before they ever wake up Gemini, while after\_model\_callback stands at the exit door stamping \[REDACTED-PHONE\] and \[REDACTED-CARD\] over sensitive PII before messages reach the user.*
 
-![Architecture diagram for a secure AI customer support agent. Incoming user prompt passes through Ingress Model Armor Guardrail (Prompt Injection / Jailbreak Filter) to the ADK Customer Support Agent. The Agent queries Gemini 2.5 Flash Model and executes the Customer Database Lookup Tool. Outgoing model responses pass through Egress Model Armor Guardrail & PII Redaction (Masking phone & card details) before returning the final sanitized response to the user.][image1]
+
+<img width="746" height="359" alt="image" src="https://github.com/user-attachments/assets/d70bd453-7384-4599-8f09-2695d98e9c50" />
 
 1. Update customer\_agent/agent.py with Model Armor ingress and egress screening:
 
