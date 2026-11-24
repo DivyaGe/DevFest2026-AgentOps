@@ -4,6 +4,7 @@
 **Duration:** 75 Minutes (Immersive Hands-on Lab)   
 **Stack:** Google Cloud Shell, Agent Development Kit (ADK), Model Armor, BigQuery Remote MCP Server, Agent Identity, Vertex AI Agent Space, Cloud Trace
 
+
 # **Act I: Mission Overview & Defense-in-Depth Architecture**
 
 Welcome to **Operation ShieldWall**—an immersive 75-minute technical deep dive into architecting enterprise-grade security and observability for production AI agents. It is Friday at 5:00 PM at FinNova SG, and **NovaAssist** (powered by Gemini 3.8 Flash and BigQuery via Model Context Protocol) has just gone live. However, Nova currently lacks runtime guardrails and relies on over-privileged IAM permissions. In this lab, you will act as a Lead Security Engineer to deploy a complete defense-in-depth architecture—leveraging **Model Armor** for perimeter defense, **Agent Identity** for fine-grained IAM governance, **BigQuery MCP** for secure tool execution, and **Vertex AI Agent Space** with **Cloud Trace** for end-to-end telemetry and red-team resilience.
