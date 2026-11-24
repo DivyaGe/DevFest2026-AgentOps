@@ -4,6 +4,8 @@
 **Duration:** 75 Minutes (Immersive Hands-on Lab)   
 **Stack:** Google Cloud Shell, Agent Development Kit (ADK), Model Armor, BigQuery Remote MCP Server, Agent Identity, Vertex AI Agent Space, Cloud Trace
 
+<img width="900" height="600" alt="01-01-architecture" src="https://github.com/user-attachments/assets/0135aa68-1d78-41b6-bde0-966f8de82ff5" />
+
 
 # **Act I: Mission Overview & Defense-in-Depth Architecture**
 
