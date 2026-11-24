@@ -1,9 +1,10 @@
-[DevFestSG2026-Workshop Lab Guide_ Build a Secure Agent with Model Armor & Agent Identity_V2.md](https://github.com/user-attachments/files/35333666/DevFestSG2026-Workshop.Lab.Guide_.Build.a.Secure.Agent.with.Model.Armor.Agent.Identity_V2.md)
 # **AgentOps: Operation ShieldWall — Securing & Observing AI Agents in Production**
 
 **Based on Google Codelab:** [Build a Secure Agent with Model Armor and Identity](https://codelabs.developers.google.com/secure-customer-service-agent/instructions#0)  
 **Duration:** 75 Minutes (Immersive Hands-on Lab)   
 **Stack:** Google Cloud Shell, Agent Development Kit (ADK), Model Armor, BigQuery Remote MCP Server, Agent Identity, Vertex AI Agent Space, Cloud Trace
+
+<img width="900" height="600" alt="01-01-architecture" src="https://github.com/user-attachments/assets/705d347f-2783-42df-8fdb-0d2e4b1cd9b1" />
 
 # **Act I: Mission Overview & Defense-in-Depth Architecture**
 
