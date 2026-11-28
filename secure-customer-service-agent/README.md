@@ -201,10 +201,12 @@ cp solutions/tools/bigquery_tools.py agent/tools/bigquery_tools.py
 2. Start the agent in baseline mode by setting `ENABLE_MODEL_ARMOR=false`:
 
 ```sh
+pushd ~/devfest2026-agentops/secure-customer-service-agent
 pkill -f "adk web" || true
 source .venv/bin/activate
 source set_env.sh
-ENABLE_MODEL_ARMOR=false adk web agent --host 0.0.0.0 --port 8000
+popd
+ENABLE_MODEL_ARMOR=false adk web secure-customer-service-agent --host 0.0.0.0 --port 8000
 ```
 
 3. *(Note: You can also run `ENABLE_MODEL_ARMOR=false adk run agent` directly in the terminal as an alternative. When using the ADK Web UI, click **\+ New Session** to ensure a clean baseline state.) Run these prompts against the* **unguarded** agent and record what happens:
